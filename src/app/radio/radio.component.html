@@ -1,0 +1,7 @@
+<audio preload="auto" #audio>
+  <source [src]="streamUrl" type="audio/mpeg" />
+</audio>
+
+<button (click)="play()" class="action-button">
+  <span class="material-icons-outlined action-button-icon"> {{ icon }} </span>
+</button>
