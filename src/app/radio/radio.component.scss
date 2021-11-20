@@ -1,0 +1,44 @@
+:host {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: linear-gradient(
+    45deg,
+    #f17c58,
+    #e94584,
+    #24aadb,
+    #27dbb1,
+    #ffdc18,
+    #ff3706
+  );
+  background-size: 600% 300%;
+  animation: gradient 25s linear infinite;
+  animation-direction: alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-button {
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 75vmin;
+  height: 75vmin;
+  user-select: none;
+}
+
+.action-button-icon {
+  font-size: 20vmin;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
