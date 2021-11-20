@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1637432564676,
+  "timestamp": 1637433290100,
   "index": "/my-radio-angular/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/my-radio-angular/favicon.ico",
         "/my-radio-angular/index.html",
-        "/my-radio-angular/main.2cf5a53ae36f45b9.js",
+        "/my-radio-angular/main.4e0835774f2cefc7.js",
         "/my-radio-angular/manifest.webmanifest",
         "/my-radio-angular/polyfills.598d3a653b48da5c.js",
         "/my-radio-angular/runtime.66cb432e3e8af156.js",
@@ -52,8 +52,8 @@
     "/my-radio-angular/assets/icons/icon-72x72.png": "4b4344504d348444bfd22285812bcf1a3a7cb857",
     "/my-radio-angular/assets/icons/icon-96x96.png": "866f58df55490d52be94d1199acaefcfff9dc82a",
     "/my-radio-angular/favicon.ico": "1ef618addc399799211ad1d37b8859abb43ef52d",
-    "/my-radio-angular/index.html": "cbb7b86cedee06eb8e59a1da0bdb619a53ed7cc1",
-    "/my-radio-angular/main.2cf5a53ae36f45b9.js": "469ac68727ed8ebe1c078abccebdb79dbedb0353",
+    "/my-radio-angular/index.html": "780db468676486a63e130648f3a3ec75eec624e5",
+    "/my-radio-angular/main.4e0835774f2cefc7.js": "0dc84dd0ea466e1b43a5c23611205c87c5edb837",
     "/my-radio-angular/manifest.webmanifest": "b704c29e93f692ee43a2144d8e5f3c067e671894",
     "/my-radio-angular/polyfills.598d3a653b48da5c.js": "8d9ca0517f6a1ac5799b9446a361e8f3eff34660",
     "/my-radio-angular/runtime.66cb432e3e8af156.js": "4550c1d6d1d82e2ae8bedc049d32686f34e1a484",
