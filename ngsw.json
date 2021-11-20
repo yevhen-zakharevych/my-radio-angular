@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1637429957908,
+  "index": "/my-radio-angular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/my-radio-angular/favicon.ico",
+        "/my-radio-angular/index.html",
+        "/my-radio-angular/main.fae54a6267ce3ada.js",
+        "/my-radio-angular/manifest.webmanifest",
+        "/my-radio-angular/polyfills.598d3a653b48da5c.js",
+        "/my-radio-angular/runtime.66cb432e3e8af156.js",
+        "/my-radio-angular/styles.eae72988cd519eb0.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/my-radio-angular/assets/icons/icon-128x128.png",
+        "/my-radio-angular/assets/icons/icon-144x144.png",
+        "/my-radio-angular/assets/icons/icon-152x152.png",
+        "/my-radio-angular/assets/icons/icon-192x192.png",
+        "/my-radio-angular/assets/icons/icon-384x384.png",
+        "/my-radio-angular/assets/icons/icon-512x512.png",
+        "/my-radio-angular/assets/icons/icon-72x72.png",
+        "/my-radio-angular/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/my-radio-angular/assets/icons/icon-128x128.png": "e744d7bde022a5791d27691057fe679b88e43151",
+    "/my-radio-angular/assets/icons/icon-144x144.png": "495a7d886e8633a7bc9a59079d12767fabe24a52",
+    "/my-radio-angular/assets/icons/icon-152x152.png": "08cb6bafaa44acf1f87a55592ed5948524d43735",
+    "/my-radio-angular/assets/icons/icon-192x192.png": "f6047dca119fb9e9c96c4cb8b7d7e2c7a347097d",
+    "/my-radio-angular/assets/icons/icon-384x384.png": "d413bff52a49df64390937d8c313e7aa8d396273",
+    "/my-radio-angular/assets/icons/icon-512x512.png": "79af64db35c6116a9a42e7b8cce336bc57c143d3",
+    "/my-radio-angular/assets/icons/icon-72x72.png": "4b4344504d348444bfd22285812bcf1a3a7cb857",
+    "/my-radio-angular/assets/icons/icon-96x96.png": "866f58df55490d52be94d1199acaefcfff9dc82a",
+    "/my-radio-angular/favicon.ico": "1ef618addc399799211ad1d37b8859abb43ef52d",
+    "/my-radio-angular/index.html": "6736594c341770ed959932bb0bb16c0ede644886",
+    "/my-radio-angular/main.fae54a6267ce3ada.js": "020aa3caa2b59e1698e31d57e77a43a1f31e7b6d",
+    "/my-radio-angular/manifest.webmanifest": "b704c29e93f692ee43a2144d8e5f3c067e671894",
+    "/my-radio-angular/polyfills.598d3a653b48da5c.js": "8d9ca0517f6a1ac5799b9446a361e8f3eff34660",
+    "/my-radio-angular/runtime.66cb432e3e8af156.js": "4550c1d6d1d82e2ae8bedc049d32686f34e1a484",
+    "/my-radio-angular/styles.eae72988cd519eb0.css": "a36c1c732510cc4b48afc5a654029d0a45deab76"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
