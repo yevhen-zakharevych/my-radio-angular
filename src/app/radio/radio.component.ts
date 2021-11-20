@@ -12,14 +12,10 @@ export class RadioComponent {
 
   streamUrl = 'https://icecast.pulsradio.com/relaxAAC64.mp3';
 
-  interval: any | null = null;
-
   icon = ButtonIcons.Play;
 
   play() {
-    const audio = this.audioRef.nativeElement;
-
-    if (audio.paused) {
+    if (this.audioRef.nativeElement.paused) {
       this.start();
     } else {
       this.pause();
@@ -27,18 +23,16 @@ export class RadioComponent {
   }
 
   private start(): void {
+    this.audioRef.nativeElement.src = this.streamUrl;
     this.audioRef.nativeElement.play();
-    this.icon = ButtonIcons.Pause;
 
-    this.interval = setInterval(() => {
-      this.streamUrl = this.streamUrl;
-    }, 30000);
+    this.icon = ButtonIcons.Pause;
   }
 
   private pause(): void {
     this.audioRef.nativeElement.pause();
-    this.icon = ButtonIcons.Play;
+    this.audioRef.nativeElement.src = '';
 
-    clearInterval(this.interval);
+    this.icon = ButtonIcons.Play;
   }
 }
