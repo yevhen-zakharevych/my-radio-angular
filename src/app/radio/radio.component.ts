@@ -10,7 +10,7 @@ export class RadioComponent {
   @ViewChild('audio')
   audioRef!: ElementRef<HTMLAudioElement>;
 
-  streamUrl = 'https://icecast.pulsradio.com/relaxAAC64.mp3';
+  streamUrl = 'http://icecast.pulsradio.com/relaxHD.mp3';
 
   icon = ButtonIcons.Play;
 
